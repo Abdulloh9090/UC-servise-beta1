@@ -1,0 +1,69 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em 0;
+}
+h1 {
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.hero {
+    background-color: #eee;
+    text-align: center;
+    padding: 3em 0;
+}
+
+.about, .services, .contact {
+    padding: 2em 0;
+}
+
+.services {
+    background-color: #f4f4f4;
+}
+
+.service {
+    margin-bottom: 1em;
+}
+input {
+    background: #b8b8b8;
+    border-radius: 50px;
+    height: 25px;
+    border: 1px solid black;
+}
+.btn {
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
